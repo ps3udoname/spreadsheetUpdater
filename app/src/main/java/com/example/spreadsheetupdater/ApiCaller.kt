@@ -19,7 +19,7 @@ import java.io.FileOutputStream
 import java.util.concurrent.TimeUnit
 
 class ApiCaller(private val activity: Activity) {
-    private val spreadsheetId = "<API KEY>"
+    private val spreadsheetId = "id of spreadsheet (from url)"
     private var pendingData: List<String>? = null
 
     val requestedScopes = listOf(
